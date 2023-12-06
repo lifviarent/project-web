@@ -1,0 +1,25 @@
+
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.about div img {
+    width: 50%;
+}
+
+.text .btn {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5em;
+    width: max-content;
+}

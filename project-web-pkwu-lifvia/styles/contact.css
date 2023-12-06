@@ -1,0 +1,24 @@
+main h1 {
+    text-align: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    gap: 1em;
+    align-items: center;
+}
+
+main form input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+main form button[type=submit] {
+    width: max-content;
+    padding: 10px;
+    border-radius: 5em;
+
+}

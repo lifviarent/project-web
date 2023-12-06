@@ -1,0 +1,11 @@
+main {
+   margin-top: 5em;
+}
+
+.about-text {
+   text-align: center;
+   gap: 2em;
+   display: flex;
+   flex-direction: column;
+   padding: 3em;
+}
